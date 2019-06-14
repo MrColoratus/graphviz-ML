@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from scipy.stats import chi2, norm
 from sklearn.metrics import log_loss
-import statsmodels.api as sm
 import numpy as np
 from sklearn.metrics import accuracy_score, log_loss, roc_curve, auc
 import math
